@@ -12,6 +12,6 @@ const Search = () => {
             </Button>
         </div>
      );
-}
+};
  
 export default Search;

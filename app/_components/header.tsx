@@ -15,6 +15,6 @@ const Header = () => {
         </Card>
 
      );
-}
+};
  
 export default Header;
