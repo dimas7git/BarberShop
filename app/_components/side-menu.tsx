@@ -1,4 +1,5 @@
 "use client";
+
 import { CalendarIcon, HomeIcon, LogInIcon, LogOutIcon, UserIcon } from "lucide-react";
 import { Avatar, AvatarImage } from "./ui/avatar";
 import { Button } from "./ui/button";
