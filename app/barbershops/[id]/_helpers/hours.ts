@@ -13,7 +13,6 @@ export function generateDayTimeList(date: Date): string[] {
         const currentHour = currentDate.getHours();
         const currentMinute = currentDate.getMinutes();
         const currentHourStartTime = setMinutes(setHours(date, currentHour + 1), 0);
-
         if (currentHourStartTime > startTime) {
             currentTime = currentHourStartTime;
         }
