@@ -14,7 +14,9 @@ const Header = () => {
             <Card>
                 <CardContent className="p-5 py-8 justify-between items-center flex flex-row">
                     <Link href="/">
-                        <Image src="/Logo.png" alt="FSW Barber" height={18} width={120} />
+                        <div className="text-3xl font-bold">
+                            <span className="text-primary opacity-70">BarberShop</span>
+                        </div>
                     </Link>
                     <Sheet>
                         <SheetTrigger asChild>
